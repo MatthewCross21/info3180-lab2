@@ -5,17 +5,16 @@ body {
 .profile-card {
     width: 350px;
     text-align: center;
-    justify-content: center;
     background: #fefefe;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    
+    margin: 0 auto; /* Fallback horizontal centering */
 }
 
 .profile-header {
     background: linear-gradient(135deg, #2a1b92, #5065af); 
-    padding: 40px 0;
+    padding: 20px 0;
     position: relative;
 }
 
@@ -23,30 +22,30 @@ body {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    border: 3px solid #ffffff; 
-    background: #fefefe;
-    margin-top: -50px; 
+    border: 0px solid #ffffff;
+    margin: 0 auto;
 }
 
 .profile-content {
-    padding: 20px;
+    padding: 10px;
 }
 
 .username {
     color: rgb(30, 206, 39); 
     font-size: 16px; 
-    margin-top: 10px; 
+    padding:0px 0;
+    margin-top:2px; 
 }
 
 .location, .joined {
     font-size: 13px;
     color: #020000; 
-    margin-top: 5px; 
+    
 }
 
 .bio {
     font-size: 14px;
-    margin-top: 10px;
+    margin-top:1px;
     color: #333; 
 }
 
